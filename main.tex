@@ -1,0 +1,85 @@
+\documentclass[left]{ctexart}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{ctex}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{subfigure}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{tikz}
+\usepackage{diagbox}
+\usepackage{amsmath}
+\usepackage{fontspec}
+
+%\setmainfont{SimSun}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{\color{gray}{\small 中国传媒大学本科生非笔试课程考核}}
+
+%\renewcommand{\headrulewidth}{0.4pt}
+
+\title{\huge 课题/章节名}
+
+% \title{}
+% \author{}
+\begin{document}
+\fancyfoot[R]{}%设置页脚为空
+%\pagestyle{empty}
+\begin{figure}
+    \centering
+    \includegraphics[width=1.0\linewidth]{CUC_Logo.png}
+    \label{fig:placeholder}
+\end{figure}
+
+\begin{center}
+    \huge
+    \makebox[2em][l]{题目:}\underline{\makebox[15em][c]{}}
+\end{center}
+\ \\
+\begin{center}%修改对应括号中的内容即可
+{\large  % 这里的字号也可以用别的方式修改
+\makebox[4em][s]{学年学期}:\underline{\makebox[15em][c]{20**-20**学年春/秋季学期}}\\
+\makebox[4em][s]{课程名称}:\underline{\makebox[15em][c]{}}\\
+\makebox[4em][s]{课程编号}:\underline{\makebox[15em][c]{}}\\
+\makebox[4em][s]{课程序号}:\underline{\makebox[15em][c]{}}\\
+\makebox[4em][s]{任课教师}:\underline{\makebox[15em][c]{}}\\
+\ \\
+\makebox[4em][s]{姓名}:\underline{\makebox[15em][c]{}}\\
+\makebox[4em][s]{学号}:\underline{\makebox[15em][c]{}}\\
+}
+\end{center}
+
+\
+
+\
+
+\begin{center}
+\large
+    \textbf{评分区域（由阅卷老师填写）}\\
+    \makebox[4em][s]{结课成绩}:\underline{\makebox[4em][c]{}}\\
+    \makebox[4em][s]{总评成绩}:\underline{\makebox[4em][c]{}}\\
+    \ \\
+    \ \\
+    提交时间：20**年**月**日\\
+\end{center}
+
+
+%新开一页为目录
+\newpage
+\tableofcontents
+
+%新开为正文，从此处开始设置页码为1，并显示页脚
+\newpage
+\fancyfoot[R]{\thepage}
+\setcounter{page}{1}
+
+
+
+
+\end{document}
+
+
+
+
+
